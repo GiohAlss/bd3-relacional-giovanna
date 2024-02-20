@@ -48,3 +48,4 @@ cod_paciente 		int unsigned not null,
 data_cirurgia 		varchar(10) not null,
 status_cirurgia 	enum('Agendado', 'Concluído', 'Cancelado')
 );
+
