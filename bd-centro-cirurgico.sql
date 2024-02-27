@@ -13,7 +13,7 @@ cod_paciente 			int unsigned auto_increment primary key,
 nome_paciente 			varchar(500) not null,
 telefone_paciente 		varchar(10),
 celular_paciente 		varchar(11) not null,
-email_paciete 			varchar(100) not null,
+email_paciente 			varchar(100) not null,
 nome_responsavel 		varchar(500) not null,
 telefone_responsavel 	varchar(11) not null
 );
