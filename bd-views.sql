@@ -1,3 +1,4 @@
+#listagem geral/médico
 create view listagem_geral as 
 select * from tbl_medico;
 
@@ -50,5 +51,4 @@ select * from listagem_agenda;
 drop view listagem_medico_especialidade;
 drop view listagem_sala_especialidade; 
 drop view listagem_agenda;
-
-
+drop view listagem_geral;
