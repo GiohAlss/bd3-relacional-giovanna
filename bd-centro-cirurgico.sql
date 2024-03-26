@@ -49,6 +49,7 @@ data_cirurgia 		varchar(10) not null,
 status_cirurgia 	enum('Agendado', 'Concluído', 'Cancelado')
 );
 
+/*
 create table tbl_paciente_bkp(
 cod_paciente 			int unsigned auto_increment primary key,
 nome_paciente 			varchar(500) not null,
@@ -59,3 +60,4 @@ nome_responsavel 		varchar(500) not null,
 telefone_responsavel 	varchar(11) not null,
 date_delete 			datetime
 );
+*/
